@@ -50,6 +50,12 @@ a:hover {
 	/*  background: none; */
 }
 
+.column
+{
+    width: 1000px;
+    margin: 0 auto;
+}
+
 #wrapper {
 	width: 1000px;
 	margin: 0 auto;

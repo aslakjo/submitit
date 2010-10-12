@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/new_style.css" type="text/css" />
 </head>
 <body>
+
 <div id="header">
     <div id="logo">
         <lift:HeaderSnippet.header>
@@ -22,8 +23,13 @@
         </lift:HeaderSnippet.header>
     </div>
 </div>
-<lift:bind name="content"/>
-<lift:Menu.builder/>
+<div class="column menu">
+    <lift:Menu.builder/>
+</div>
+<div class="column">
+    <lift:bind name="content"/>
+</div>
+
 <div id="footer">
   <p>&copy; JavaZone 2010</p>
     <p>
